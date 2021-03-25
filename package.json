@@ -1,0 +1,21 @@
+{
+  "name": "jdd-digital-operation-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab-jdd.jd.com/jdd-fe/jdd-digital-operation-utils.git"
+  },
+  "peerDependencies": {
+    "axios": "^0.21.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "event-helper": "^1.0.3"
+  }
+}
