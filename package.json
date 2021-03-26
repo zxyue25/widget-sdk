@@ -1,5 +1,5 @@
 {
-  "name": "jdd-digital-operation-utils",
+  "name": "@jdt/widget-sdk",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab-jdd.jd.com/jdd-fe/jdd-digital-operation-utils.git"
+    "url": "http://gitlab-jdd.jd.com/jdd-fe/widget-sdk.git"
   },
   "peerDependencies": {
     "axios": "^0.21.0"
