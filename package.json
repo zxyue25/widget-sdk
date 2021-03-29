@@ -7,7 +7,7 @@
     "start:build": "npm run tsc && node build",
     "start": "node run",
     "clear": "rimraf build",
-    "tsc": "npm run clear && tsc",
+    "build": "npm run clear && tsc",
     "tsc:w": "npm run clear && tsc -w",
     "p": "npm run tsc && npm publish",
     "lint": "tslint \"src/**/*.ts\""
