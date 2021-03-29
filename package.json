@@ -1,13 +1,14 @@
 {
-  "name": "@jdt/widget-sdk",
-  "version": "0.1.0",
-  "description": "",
+  "name": "widget-sdk",
+  "version": "0.1.1",
+  "description": "widget",
   "main": "build/index.js",
   "scripts": {
     "start:build": "npm run tsc && node build",
     "start": "node run",
     "clear": "rimraf build",
     "build": "npm run clear && tsc",
+    "tsc": "npm run clear && tsc",
     "tsc:w": "npm run clear && tsc -w",
     "p": "npm run tsc && npm publish",
     "lint": "tslint \"src/**/*.ts\""
