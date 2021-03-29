@@ -1,7 +1,7 @@
-import eventCenter from "./event-center";
+import EventCenter from "./event-center";
 
-import widgetRender from "./widget-render"
+import WidgetRender from "./widget-render"
 
 export {
-  eventCenter, widgetRender
+  EventCenter, WidgetRender
 }

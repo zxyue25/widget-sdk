@@ -7,7 +7,6 @@
       "experimentalDecorators": true,
       "allowSyntheticDefaultImports": true,
       "alwaysStrict": true,
-      "sourceMap": true,
       "noEmit": false,
       "noEmitHelpers": true,
       "importHelpers": true,

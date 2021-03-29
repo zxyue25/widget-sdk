@@ -1,6 +1,6 @@
 {
   "name": "widget-sdk",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "widget",
   "main": "build/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab-jdd.jd.com/jdd-fe/widget-sdk.git"
+    "url": "https://jcode.jdfmgt.com/git/widget-sdk.git"
   },
   "author": "",
   "license": "ISC",
