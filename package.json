@@ -1,8 +1,9 @@
 {
   "name": "widget-sdk",
-  "version": "0.1.3",
+  "version": "0.1.13",
   "description": "widget",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "start:build": "npm run tsc && node build",
     "start": "node run",
@@ -15,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://jcode.jdfmgt.com/git/widget-sdk.git"
+    "url": "https://github.com/zxyue25/widget-sdk.git"
   },
   "author": "",
   "license": "ISC",
@@ -23,7 +24,6 @@
     "@types/mocha": "^2.2.41",
     "@types/node": "^6.0.48",
     "@types/should": "^8.3.0",
-    "axios": "^0.21.1",
     "mocha": "^3.3.0",
     "rimraf": "^2.6.1",
     "should": "^11.2.1",
@@ -32,7 +32,7 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "event-helper": "^1.0.3",
+    "event-helper": "^1.0.5",
     "tslib": "^1.6.1"
   }
 }

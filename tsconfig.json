@@ -1,20 +1,7 @@
 {
   "compilerOptions": {
       "target": "es5",
-      "module": "commonjs",
-      "moduleResolution": "node",
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "allowSyntheticDefaultImports": true,
-      "alwaysStrict": true,
-      "noEmit": false,
-      "noEmitHelpers": true,
-      "importHelpers": true,
-      "strictNullChecks": false,
-      "allowUnreachableCode": true,
-      "lib": ["es2017", "dom"],
-      "typeRoots": ["node_modules/@types"],
-      "types": ["mocha", "node", "should"],
+      "lib": ["es5", "DOM"],
       "outDir": "./build",
       "rootDir": "./src"
   },
