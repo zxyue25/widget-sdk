@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "sourceMap": true,
+        "noEmit": false,
+        "noEmitHelpers": false,
+        "importHelpers": false,
+        "strictNullChecks": false,
+        "allowUnreachableCode": true,
+        "lib": ["es2015", "dom"],
+        "typeRoots": ["node_modules/@types"],
+        "types": ["mocha", "node", "should"],
+        "outDir": "./build",
+        "rootDir": "./src"
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "**/*.test.ts",
+        "temp"
+    ],
+    "compileOnSave": false,
+    "buildOnSave": false
+}

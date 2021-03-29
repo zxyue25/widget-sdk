@@ -2,20 +2,36 @@
   "name": "@jdt/widget-sdk",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:build": "npm run tsc && node build",
+    "start": "node run",
+    "clear": "rimraf build",
+    "tsc": "npm run clear && tsc",
+    "tsc:w": "npm run clear && tsc -w",
+    "p": "npm run tsc && npm publish",
+    "lint": "tslint \"src/**/*.ts\""
   },
   "repository": {
     "type": "git",
     "url": "http://gitlab-jdd.jd.com/jdd-fe/widget-sdk.git"
   },
-  "peerDependencies": {
-    "axios": "^0.21.0"
-  },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^6.0.48",
+    "@types/should": "^8.3.0",
+    "axios": "^0.21.1",
+    "mocha": "^3.3.0",
+    "rimraf": "^2.6.1",
+    "should": "^11.2.1",
+    "ts-node": "^3.0.2",
+    "tslint": "^5.1.0",
+    "typescript": "^2.3.2"
+  },
   "dependencies": {
-    "event-helper": "^1.0.3"
+    "event-helper": "^1.0.3",
+    "tslib": "^1.6.1"
   }
 }
