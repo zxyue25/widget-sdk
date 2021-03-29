@@ -28,7 +28,7 @@
     "should": "^11.2.1",
     "ts-node": "^3.0.2",
     "tslint": "^5.1.0",
-    "typescript": "^2.3.2"
+    "typescript": "^3.9.7"
   },
   "dependencies": {
     "event-helper": "^1.0.3",
