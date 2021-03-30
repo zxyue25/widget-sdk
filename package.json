@@ -1,9 +1,8 @@
 {
   "name": "widget-sdk",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "widget",
   "main": "build/index.js",
-  "types": "build/index.d.ts",
   "scripts": {
     "start:build": "npm run tsc && node build",
     "start": "node run",
@@ -32,7 +31,7 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "event-helper": "^1.0.5",
+    "event-helper": "^1.1.2",
     "tslib": "^1.6.1"
   }
 }

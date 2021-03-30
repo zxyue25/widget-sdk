@@ -1,7 +1,22 @@
 {
   "compilerOptions": {
       "target": "es5",
-      "lib": ["es5", "DOM"],
+      "module": "esnext",
+      "moduleResolution": "Node",
+      "declaration": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "alwaysStrict": true,
+      "sourceMap": true,
+      "noEmit": false,
+      "noEmitHelpers": true,
+      "importHelpers": true,
+      "strictNullChecks": false,
+      "allowUnreachableCode": true,
+      "lib": ["es2017", "dom"],
+      "typeRoots": ["node_modules/@types"],
+      "types": ["mocha", "node", "should"],
       "outDir": "./build",
       "rootDir": "./src"
   },

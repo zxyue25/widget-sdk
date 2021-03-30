@@ -1,8 +1,5 @@
-// import EventCenter from "./event-center";
+import EventCenter from './event-center'
 
 import WidgetRender from './widget-render'
 
-export = {
-  // EventCenter,
-  WidgetRender,
-}
+export { EventCenter, WidgetRender }
