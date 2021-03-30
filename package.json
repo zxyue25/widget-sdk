@@ -1,5 +1,5 @@
 {
-  "name": "widget-sdk",
+  "name": "@jdt/widget-sdk",
   "version": "0.1.14",
   "description": "widget",
   "main": "build/index.js",
