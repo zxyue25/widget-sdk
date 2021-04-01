@@ -11,7 +11,8 @@
     "tsc": "npm run clear && tsc",
     "tsc:w": "npm run clear && tsc -w",
     "p": "npm run tsc && npm publish",
-    "lint": "tslint \"src/**/*.ts\""
+    "lint": "tslint \"src/**/*.ts\"",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "repository": {
     "type": "git",
