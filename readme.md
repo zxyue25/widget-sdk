@@ -1,7 +1,5 @@
 # @jdt/widget-sdk
 
-![my love](./logo.png)
-
 ## Installation
 
     npm install @jdt/widget-sdk
@@ -44,27 +42,27 @@ export default {
 
 ## EventCenter API
 
-### on(name,action)
+#### on(name,action)
 
     add event
 
-### off(name,action?)
+#### off(name,action?)
 
     remove event
 
-### once(name,action)
+#### once(name,action)
 
     add evnet for one time
 
-### emit(name:string|string[])
+#### emit(name:string|string[])
 
     emit event by name or name array
 
-### has(name:string)
+#### has(name:string)
 
     check event name exists
 
-### first(name:string,action)
+#### first(name:string,action)
 
     remove events of name
     then add action of the same name
