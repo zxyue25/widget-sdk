@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { WidgetRender, EventCenter } from "@jdt/widget-sdk/render"
+import { WidgetRender, EventCenter } from "@jdt/widget-sdk"
 export default {
    components: {
       WidgetRender
