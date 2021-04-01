@@ -6,7 +6,7 @@
 
     npm install @jdt/widget-sdk
 
-# Usage
+## Usage
 
 ```javascript
 //in vue
@@ -68,3 +68,7 @@ export default {
 
     remove events of name
     then add action of the same name
+
+## Changelog
+
+[详细更新内容](https://)
