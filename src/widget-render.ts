@@ -48,17 +48,6 @@ export default {
     async loadDynamic() {
       const { success, data } = await this.fetch(this.src)
       if (!success) return
-
-      //   const wrappedData = `
-      //   (function(){
-      //     const self = {};
-      //     ${data};
-      //   return self["XDinamicCommonComponent"];
-      // })();
-      //   `
-      //   debugger
-      //   const componentObj = this.execute(wrappedData)
-      //   debugger
       this.execute(data)
       const component = (window as any).XDinamicCommonComponent.default
       const componentName =
