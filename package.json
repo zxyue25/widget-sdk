@@ -24,6 +24,7 @@
     "@types/mocha": "^2.2.41",
     "@types/node": "^6.0.48",
     "@types/should": "^8.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "mocha": "^3.3.0",
     "rimraf": "^2.6.1",
     "should": "^11.2.1",
@@ -34,5 +35,10 @@
   "dependencies": {
     "event-helper": "^1.1.2",
     "tslib": "^1.6.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
