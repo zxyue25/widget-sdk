@@ -1,4 +1,9 @@
-## 0.1.2 (2021-04-01)
+# 0.2.0 (2021-04-01)
+
+
+### Bug Fixes
+
+* render ([34ce03f](https://github.com/zxyue25/widget-sdk/commit/34ce03f2522963377eb39813b2b60bb826224e48))
 
 
 ### Features
