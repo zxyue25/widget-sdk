@@ -1,8 +1,8 @@
-# @jdt/widget-sdk
+# widget-sdk
 
 ## Installation
 
-    npm install @jdt/widget-sdk
+    npm install widget-sdk
 
 ## Usage
 
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { WidgetRender, EventCenter } from "@jdt/widget-sdk"
+import { WidgetRender, EventCenter } from "widget-sdk"
 export default {
    components: {
       WidgetRender
